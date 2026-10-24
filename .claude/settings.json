@@ -1,22 +1,4 @@
 {
-  "extraKnownMarketplaces": {
-    "ponytail": {
-      "source": {
-        "source": "github",
-        "repo": "DietrichGebert/ponytail"
-      }
-    },
-    "addy-agent-skills": {
-      "source": {
-        "source": "github",
-        "repo": "addyosmani/agent-skills"
-      }
-    }
-  },
-  "enabledPlugins": {
-    "ponytail@ponytail": true,
-    "agent-skills@addy-agent-skills": true
-  },
   "hooks": {
     "SessionStart": [
       {
@@ -51,5 +33,24 @@
         ]
       }
     ]
+  },
+  "enabledPlugins": {
+    "ponytail@ponytail": true,
+    "agent-skills@addy-agent-skills": true,
+    "superpowers@anthropic-plugin-directory": true
+  },
+  "extraKnownMarketplaces": {
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    },
+    "addy-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "addyosmani/agent-skills"
+      }
+    }
   }
 }
