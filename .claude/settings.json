@@ -37,7 +37,8 @@
   "enabledPlugins": {
     "ponytail@ponytail": true,
     "agent-skills@addy-agent-skills": true,
-    "superpowers@anthropic-plugin-directory": true
+    "superpowers@anthropic-plugin-directory": true,
+    "andrej-karpathy-skills@karpathy-skills": true
   },
   "extraKnownMarketplaces": {
     "ponytail": {
@@ -50,6 +51,12 @@
       "source": {
         "source": "github",
         "repo": "addyosmani/agent-skills"
+      }
+    },
+    "karpathy-skills": {
+      "source": {
+        "source": "github",
+        "repo": "forrestchang/andrej-karpathy-skills"
       }
     }
   }
